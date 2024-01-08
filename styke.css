@@ -1,0 +1,68 @@
+li{
+    font-size: 20px;
+}
+a{
+    font-size: 20PX;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-weight: 700;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    text-align: center;
+    
+}
+img{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+body{
+    margin-bottom: 900px;
+}
+.con{
+    color: red;
+    text-align: center;
+}
+
+@keyframes heartbeat {
+0% {
+transform: scale(1);
+}
+50% {
+transform: scale(1.1);
+}
+100% {
+transform: scale(1);
+}
+}
+
+.heart-icon {
+color: red;
+font-size: 10rem;
+animation: heartbeat 1s infinite;
+text-align: center;
+}
+.card{
+    width: 300px;
+}
+.tm{
+    width: 100%;
+}
+.buy{
+    width: 100%;
+    padding: 10px;
+
+}
+.display_card{
+    margin-top: 30px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0px 0px 5px;
+    border-radius: 12px;
+}
+p{
+    font-family: ;
+}

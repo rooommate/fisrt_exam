@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Active learning form</title>
+</head>
+<body>
+    <style>
+        body{
+            margin-top: 20px;
+        }
+input{
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+    box-shadow: 0px 0px 6px;
+    margin-left: 5px;
+}
+div{
+    margin: 15px;
+}
+        form{
+            width: 400px;
+            box-shadow: 2px 5px 10px rgba(0,0,0.12);
+            padding: 10px;
+            border-radius: 12px;
+            background-color: pink;
+            position:absolute;
+            right: 0;
+            margin-right: 5px
+            
+        }
+        h1{
+            text-align: center;
+
+        }
+        p{
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 600;
+        }
+        fieldset{
+            margin: 15px;
+            border-radius: 12px;
+            box-shadow: inset 0px 0px 5px rgba(185,155, 0,0.18);
+
+        }
+        textarea{
+            margin: 20px;
+        }
+        div{
+            margin: 5px;
+        }
+    </style>
+    <div>
+        <div style="vertical-align: middle;">
+            <h2>Name adam awae </h2>
+            <h2>NO 6540011053</h2>
+        </div>
+        <form action="http://www.example.com">
+<h1>Active learning form</h1>
+
+<div>
+    <div style="display: flex; flex-wrap: wrap; flex:1 0 200px ; ">
+        <div> <label for="name">
+            Firstname
+        </label>
+        <input type="text"></div>
+       
+    </div>
+    
+    <div>
+        <label for="name">
+            Lastname
+        </label>
+        <input type="text">
+    </div>
+    
+    <div>
+        <label for="name">
+            Email
+        </label>
+        <input type="text">
+    </div>
+    <div>
+        <label for="name">
+        Job
+        </label>
+        <input type="text">
+    </div>
+    
+    
+    
+    <div>
+        <label for="name">
+            Sex
+        </label>
+        <input type="text">
+    </div>
+    </div>
+    
+
+<div>
+    <label for="">Years of Education</label>
+    <input type="date">
+</div>
+
+
+<fieldset>
+<legend style="font-size: 20px;font-weight: 600; text-align: center; background-color: aquamarine;padding: 10px; border-radius: 12px; ">Address</legend>
+<textarea name="" id="" cols="30" rows="10" placeholder="address and your contact" style="background-color: antiquewhite; display: block;margin-right: auto;margin-left: auto;"></textarea>
+</fieldset>
+
+<P style="font-size: 18PX;font-family: Arial, Helvetica, sans-serif;";">deparment</P>
+
+<div> 
+    <input type="radio" name="DEP" ><label for="deparment">IT</label></div>
+<div style="display: inline-block;"> <input type="radio" name="DEP"><label for="deparment">IS</label></div>
+
+
+<div>
+<p style="font-size: 18px; font-family: Arial, Helvetica, sans-serif; display: inline;">ประเภทงาน</p>
+    <select name="job des" id="" style="display: inline-block;">
+        <option value="1">Web Developer</option>
+        <option value="2">SA</option>
+        <option value="3">Graphic Design</option>
+        <option value="4">Digital Marketing</option>
+
+    </select>  
+</div>
+
+<input type="file" style="margin: 20px; display: block;margin-left: auto;margin-right: auto;" >
+
+<input type="submit" value="submit" style="padding-left: 12px; padding-right: 12px;">
+
+<input type="reset">
+        </form>
+    </div>
+    
+</body>
+</html>
